@@ -68,6 +68,7 @@ class EditActivity : AppCompatActivity() {
             edit_note.setText(notes.note)
         }
     }
+
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return super.onSupportNavigateUp()
